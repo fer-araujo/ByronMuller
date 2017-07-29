@@ -1,0 +1,239 @@
+/* Background */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body
+{
+	background: url('img/background.jpg')  no-repeat center center fixed;
+	background-size: 100% 100%;
+}
+
+input[type="text"], input[type="password"], input[type="submit"], input[type="button"]
+{
+	background: transparent;
+}
+
+button[type="submit"]
+{
+	background: transparent;
+}
+
+/* Login */
+
+#login-wrapper
+{
+	width: 175px;
+	height: 77px;
+	margin: 0 auto;
+	background-color:rgba(0,0,0,.5);
+	padding: 5px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	cursor: pointer;
+	border-radius: 10px;
+	color: white;
+	 -webkit-transition: width 2s; 
+    transition: width 2s;
+    animation-name: welcome;/* The element to apply the animation to */
+    animation-duration: 4s;
+}
+
+#login-wrapper p
+{
+	color: white;
+	font-family: "Raleway", sans-serif;
+	text-align: center;
+	
+}
+
+#login-form{
+	display: none;
+	width: 350px;
+	height: 200px;
+	margin: 0px auto;
+	margin-top: 5px;
+}
+
+.form-label {
+	font-size: 18px;
+	color: #5e9bfc;
+	margin: 0;
+	display: block;
+	opacity: 1;
+	-webkit-transition: .333s ease top, .333s ease opacity;
+	transition: .333s ease top, .333s ease opacity;
+}
+.form-control {
+	border-radius: 0;
+	border-color: #ccc;
+   	border-width: 0 0 2px 0;
+   	border-style: none none solid none;
+   	box-shadow: none;
+   	color: white;
+}
+.form-control:focus  {
+	box-shadow: none;
+
+}
+
+.blue:focus{
+	border-color: #5e9bfc;
+}
+
+.btn-start-order {
+	background: 0 0 #ffffff;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    line-height: inherit;
+    margin: 30px 0;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    transition: all 0.25s ease 0s;
+}
+.btn-start-order:hover,.btn-start-order:active, .btn-start-order:focus {
+	border-color: #5e9bfc;
+	color: #5e9bfc;
+}
+/* Animation */
+
+/* The animation code */
+
+@keyframes welcome {
+    0%   {background-color:rgba(0,0,0,.1); top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);}
+    25%  {background-color:rgba(0,0,0,.2); top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);}
+    50%  {background-color:rgba(0,0,0,.3); top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);}
+    75%  {background-color:rgba(0,0,0,.4); top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);}
+    100% {background-color:rgba(0,0,0,.5);  top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);}
+}
+
+
+/* Register */
+
+#register-wrapper
+{
+	width: 500px;
+	height: 400px;
+	margin: 0 auto;
+	background-color:rgba(0,0,0,.5);
+	padding: 5px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	cursor: pointer;
+	border-radius: 10px;
+	color: white;
+	
+}
+
+#register-wrapper p
+{
+	color: white;
+	font-family: "Raleway", sans-serif;
+	text-align: center;
+	
+}
+
+#register-form{
+	width: 350px;
+	height: 200px;
+	margin: 0px auto;
+	margin-top: 5px;
+}
+
+.green:focus{
+	border-color: #0ba506;
+}
+
+.btn-start-order-r {
+	background: 0 0 #ffffff;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    line-height: inherit;
+    margin: 30px 0;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    transition: all 0.25s ease 0s;
+}
+.btn-start-order-r:hover,.btn-start-order-h:active, .btn-start-order-h:focus {
+	border-color: #0ba506;
+	color: #0ba506;
+}
+
+/* Home */
+
+#home-wrapper
+{
+	width: 500px;
+	height: 400px;
+	margin: 0 auto;
+	background-color:rgba(0,0,0,.5);
+	padding: 5px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	cursor: pointer;
+	border-radius: 10px;
+	color: white;
+	
+}
+
+#home-wrapper p
+{
+	margin-top: 3%;
+	color: white;
+	font-family: "Raleway", sans-serif;
+	text-align: center;
+	
+}
+
+#home-form{
+	width: 350px;
+	height: 200px;
+	margin: 0px auto;
+	margin-top: 5px;
+}
+
+.btn-start-order-h {
+	background: 0 0 #ffffff;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    line-height: inherit;
+    margin: 30px 0;
+    margin-top: 30%;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    transition: all 0.25s ease 0s;
+}
+.btn-start-order-h:hover,.btn-start-order-h:active, .btn-start-order-h:focus {
+	border-color: #a72323;
+	color: #a72323;
+}
+
+
+
+/* End */
